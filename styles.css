@@ -29,3 +29,6 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+body {
+	background-image: url('marie.jpg');
+}

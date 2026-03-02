@@ -29,14 +29,14 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-/*
+
 body {
 	background-image: url('marie.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
-*/
+
 
 table, th, td {
 	border: 1px solid black;

@@ -29,9 +29,59 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+/*
 body {
 	background-image: url('marie.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+}
+*/
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-radius: 10px;
+	border-style: dotted;
+	border-color: blue;
+}
+
+th, td {
+	/*background-color: red;*/
+	/*padding: 15px;*/
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 40px;
+}
+/*
+th {
+	text-align: left;
+}
+table {
+	border-spacing: 30px;
+}
+
+tr:nth-child(even) {
+	background-color: #D6EEEE;
+}
+
+
+td:nth-child(even) {
+	background-color: #D6EEEE;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+*/
+tr {
+	border-bottom: 1px solid #ddd;
+}
+tr:hover {
+	background-color: #D6EEEE;
 }

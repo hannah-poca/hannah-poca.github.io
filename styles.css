@@ -31,4 +31,7 @@ a:active {
 }
 body {
 	background-image: url('marie.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }

@@ -85,3 +85,33 @@ tr {
 tr:hover {
 	background-color: #D6EEEE;
 }
+/*
+div {
+	width: 300px;
+	margin: auto;
+}
+*/
+div.mycontainer {
+	width:100%;
+	overflow:auto;
+}
+div.mycontainer div {
+	width:33%;
+	float:left;
+}
+/*
+div {
+	width:30%;
+	display: inline-block;
+}
+*/
+.mycontainer2 {
+	display: flex;
+}
+.mycontainer2 > div {
+	width: 33%;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
